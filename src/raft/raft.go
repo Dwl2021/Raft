@@ -45,22 +45,18 @@ const (
 	Leader
 )
 
-const (
-	Normal VoteState = iota //投票过程正常
-	Killed                  //Raft节点已终止
-	Expire                  //投票(消息\竞选者）过期
-	Voted                   //本Term内已经投过票
-)
-
-const (
-	AppNormal    AppendEntriesState = iota // 追加正常
-	AppOutOfDate                           // 追加过时
-	AppKilled                              // Raft程序终止
-	AppRepeat                              // 追加重复 (2B
-	AppCommited                            // 追加的日志已经提交 (2B
-	Mismatch                               // 追加不匹配 (2B
-
-)
+func (rf *Raft) GetStatus() string {
+	if rf.status == 0 {
+		return "Follower"
+	}
+	if rf.status == 1 {
+		return "Candidate"
+	}
+	if rf.status == 2 {
+		return "Leader"
+	}
+	return ""
+}
 
 // ApplyMsg
 // as each Raft peer becomes aware that successive log entries are

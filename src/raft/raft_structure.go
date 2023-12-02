@@ -44,9 +44,9 @@ type Raft struct {
 	matchIndex []int // 对于每一个server，已经复制给该server的最后日志条目下标
 
 	// 由自己追加的:
-	status   Status        // 该节点是什么角色（状态）
-	overtime time.Duration // 设置超时时间，200-400ms
-	timer    *time.Ticker  // 每个节点中的计时器
+	status  Status        // 该节点是什么角色（状态）
+	timeout time.Duration // 设置超时时间，200-400ms
+	timer   *time.Ticker  // 每个节点中的计时器
 
 	applyChan chan ApplyMsg // 日志都是存在这里client取（2B）
 }

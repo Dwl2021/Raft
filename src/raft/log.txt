@@ -1,0 +1,1171 @@
+2023/12/02 16:26:49 Now create the raft node [ 0 ]!
+2023/12/02 16:26:49 Now create the raft node [ 1 ]!
+2023/12/02 16:26:49 Now create the raft node [ 2 ]!
+Test (2A): initial election ...
+2023/12/02 16:26:49 Follower: 2 follower (term 0) timeout, and change to the candidate! The current term is 1.
+2023/12/02 16:26:49 Candidate: 2 (term 1) send Request Vote to server 1
+2023/12/02 16:26:49 Candidate: 2 (term 1) send Request Vote to server 0
+2023/12/02 16:26:49 Follower: 1 (term 0) receive the Request Vote from 2
+2023/12/02 16:26:49 Follower: 1 (term 0) follow the higher term Leader 2 (term 1)
+2023/12/02 16:26:49 Follower: 1 (term 1) vote for 2
+2023/12/02 16:26:49 Follower: 0 (term 0) receive the Request Vote from 2
+2023/12/02 16:26:49 Follower: 0 (term 0) follow the higher term Leader 2 (term 1)
+2023/12/02 16:26:49 Follower: 0 (term 1) vote for 2
+2023/12/02 16:26:49 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:49 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:49 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:49 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:49 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:49 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:49 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:49 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:50 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:50 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:50 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:50 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:50 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:50 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:50 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:50 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:50 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:50 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:50 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:50 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:50 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:50 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:50 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:50 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:50 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:50 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:50 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:50 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:50 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:50 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:50 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:50 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:50 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:50 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:50 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:50 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:50 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:50 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:50 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:50 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:51 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:51 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:51 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:51 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:51 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:51 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:51 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:51 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:51 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:51 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:51 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:51 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:51 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:51 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:51 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:51 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:51 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:51 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:51 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:51 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:51 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:51 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:51 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:51 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:51 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:51 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:51 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:51 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:51 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:51 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:51 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:51 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:52 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:52 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:52 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:52 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:52 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:52 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:52 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:52 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:52 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:52 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:52 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:52 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:52 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:52 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:52 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:52 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:52 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:52 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:52 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:52 Follower: 0 (term 1) receive the entries from 2.
+  ... Passed --   3.0  3   48   12402    0
+2023/12/02 16:26:52 Now create the raft node [ 0 ]!
+2023/12/02 16:26:52 Now create the raft node [ 1 ]!
+2023/12/02 16:26:52 Now create the raft node [ 2 ]!
+Test (2A): election after network failure ...
+2023/12/02 16:26:52 Follower: 2 follower (term 0) timeout, and change to the candidate! The current term is 1.
+2023/12/02 16:26:52 Candidate: 2 (term 1) send Request Vote to server 0
+2023/12/02 16:26:52 Candidate: 2 (term 1) send Request Vote to server 1
+2023/12/02 16:26:52 Follower: 1 (term 0) receive the Request Vote from 2
+2023/12/02 16:26:52 Follower: 1 (term 0) follow the higher term Leader 2 (term 1)
+2023/12/02 16:26:52 Follower: 0 (term 0) receive the Request Vote from 2
+2023/12/02 16:26:52 Follower: 0 (term 0) follow the higher term Leader 2 (term 1)
+2023/12/02 16:26:52 Follower: 0 (term 1) vote for 2
+2023/12/02 16:26:52 Follower: 1 (term 1) vote for 2
+2023/12/02 16:26:52 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:52 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:52 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:52 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:53 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:53 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:53 Follower: 1 (term 1) receive the entries from 2.
+2023/12/02 16:26:53 Follower: 0 (term 1) receive the entries from 2.
+2023/12/02 16:26:53 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:53 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:53 Follower: 0 follower (term 1) timeout, and change to the candidate! The current term is 2.
+2023/12/02 16:26:53 Candidate: 0 (term 2) send Request Vote to server 2
+2023/12/02 16:26:53 Candidate: 0 (term 2) send Request Vote to server 1
+2023/12/02 16:26:53 Follower: 1 (term 1) receive the Request Vote from 0
+2023/12/02 16:26:53 Follower: 1 (term 1) follow the higher term Leader 0 (term 2)
+2023/12/02 16:26:53 Follower: 1 (term 2) vote for 0
+2023/12/02 16:26:53 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:53 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:53 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:53 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:53 Follower: 1 (term 2) receive the entries from 0.
+2023/12/02 16:26:53 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:53 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:53 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:53 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:53 Follower: 1 (term 2) receive the entries from 0.
+2023/12/02 16:26:53 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:53 Leader: 2 (term 1) send the heartbeat.
+2023/12/02 16:26:53 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:53 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:53 Leader: 2 (term 1) receive the entries from 0.
+2023/12/02 16:26:53 Follower: 1 (term 2) receive the entries from 0.
+2023/12/02 16:26:53 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:53 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:53 Follower: 1 (term 2) receive the entries from 0.
+2023/12/02 16:26:53 Follower: 2 (term 2) receive the entries from 0.
+2023/12/02 16:26:53 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:53 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:53 Follower: 2 (term 2) receive the entries from 0.
+2023/12/02 16:26:53 Follower: 1 (term 2) receive the entries from 0.
+2023/12/02 16:26:53 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:53 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:53 Follower: 2 (term 2) receive the entries from 0.
+2023/12/02 16:26:53 Follower: 1 (term 2) receive the entries from 0.
+2023/12/02 16:26:54 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:54 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:54 Follower: 2 (term 2) receive the entries from 0.
+2023/12/02 16:26:54 Follower: 1 (term 2) receive the entries from 0.
+2023/12/02 16:26:54 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:54 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:54 Follower: 2 follower (term 2) timeout, and change to the candidate! The current term is 3.
+2023/12/02 16:26:54 Candidate: 2 (term 3) send Request Vote to server 0
+2023/12/02 16:26:54 Candidate: 2 (term 3) send Request Vote to server 1
+2023/12/02 16:26:54 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:54 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:54 Follower: 1 follower (term 2) timeout, and change to the candidate! The current term is 3.
+2023/12/02 16:26:54 Candidate: 1 (term 3) send Request Vote to server 2
+2023/12/02 16:26:54 Candidate: 1 (term 3) send Request Vote to server 0
+2023/12/02 16:26:54 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:54 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:54 Candidate: 2 (term 4) send Request Vote to server 1
+2023/12/02 16:26:54 Candidate: 2 (term 4) send Request Vote to server 0
+2023/12/02 16:26:54 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:54 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:54 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:54 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:54 Candidate: 1 (term 4) send Request Vote to server 0
+2023/12/02 16:26:54 Candidate: 1 (term 4) send Request Vote to server 2
+2023/12/02 16:26:54 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:54 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:54 Candidate: 2 (term 5) send Request Vote to server 0
+2023/12/02 16:26:54 Candidate: 2 (term 5) send Request Vote to server 1
+2023/12/02 16:26:54 Candidate: 1 (term 5) send Request Vote to server 2
+2023/12/02 16:26:54 Candidate: 1 (term 5) send Request Vote to server 0
+2023/12/02 16:26:54 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:54 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:55 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:55 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:55 Candidate: 1 (term 6) send Request Vote to server 2
+2023/12/02 16:26:55 Candidate: 1 (term 6) send Request Vote to server 0
+2023/12/02 16:26:55 Candidate: 2 (term 6) send Request Vote to server 1
+2023/12/02 16:26:55 Candidate: 2 (term 6) send Request Vote to server 0
+2023/12/02 16:26:55 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:55 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:55 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:55 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:55 Candidate: 2 (term 7) send Request Vote to server 1
+2023/12/02 16:26:55 Candidate: 2 (term 7) send Request Vote to server 0
+2023/12/02 16:26:55 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:55 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:55 Candidate: 1 (term 7) send Request Vote to server 2
+2023/12/02 16:26:55 Candidate: 1 (term 7) send Request Vote to server 0
+2023/12/02 16:26:55 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:55 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:55 Candidate: 2 (term 8) send Request Vote to server 1
+2023/12/02 16:26:55 Candidate: 2 (term 8) send Request Vote to server 0
+2023/12/02 16:26:55 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:55 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:55 Candidate: 1 (term 8) send Request Vote to server 2
+2023/12/02 16:26:55 Candidate: 1 (term 8) send Request Vote to server 0
+2023/12/02 16:26:55 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:55 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:55 Candidate: 2 (term 9) send Request Vote to server 1
+2023/12/02 16:26:55 Candidate: 2 (term 9) send Request Vote to server 0
+2023/12/02 16:26:55 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:55 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:55 Candidate: 1 (term 9) send Request Vote to server 0
+2023/12/02 16:26:55 Candidate: 1 (term 9) send Request Vote to server 2
+2023/12/02 16:26:55 Candidate: 2 (term 10) send Request Vote to server 1
+2023/12/02 16:26:55 Candidate: 2 (term 10) send Request Vote to server 0
+2023/12/02 16:26:56 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:56 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:56 Candidate: 1 (term 10) send Request Vote to server 0
+2023/12/02 16:26:56 Candidate: 1 (term 10) send Request Vote to server 2
+2023/12/02 16:26:56 Candidate: 2 (term 10) receive the Request Vote from 1
+2023/12/02 16:26:56 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:56 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:56 Candidate: 2 (term 11) send Request Vote to server 0
+2023/12/02 16:26:56 Candidate: 2 (term 11) send Request Vote to server 1
+2023/12/02 16:26:56 Candidate: 1 (term 10) receive the Request Vote from 2
+2023/12/02 16:26:56 Candidate: 1 (term 10) follow the higher term Leader 2 (term 11)
+2023/12/02 16:26:56 Follower: 1 (term 11) vote for 2
+2023/12/02 16:26:56 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:56 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:56 Leader: 2 (term 11) send the heartbeat.
+2023/12/02 16:26:56 Leader: 2 (term 11) send the heartbeat.
+2023/12/02 16:26:56 Follower: 1 (term 11) receive the entries from 2.
+2023/12/02 16:26:56 Follower: 1 (term 11) receive the entries from 2.
+2023/12/02 16:26:56 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:56 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:56 Leader: 2 (term 11) send the heartbeat.
+2023/12/02 16:26:56 Leader: 2 (term 11) send the heartbeat.
+2023/12/02 16:26:56 Follower: 1 (term 11) receive the entries from 2.
+2023/12/02 16:26:56 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:56 Leader: 0 (term 2) send the heartbeat.
+2023/12/02 16:26:56 Leader: 2 (term 11) send the heartbeat.
+2023/12/02 16:26:56 Leader: 2 (term 11) send the heartbeat.
+2023/12/02 16:26:56 Follower: 1 (term 11) receive the entries from 2.
+2023/12/02 16:26:56 Leader: 2 (term 11) receive the entries from 0.
+2023/12/02 16:26:56 Follower: 1 (term 11) receive the entries from 0.
+2023/12/02 16:26:56 Follower: 0 (term 11) receive the Request Vote from 1
+2023/12/02 16:26:56 Follower: 1 (term 11) receive the entries from 2.
+2023/12/02 16:26:56 Follower: 1 (term 11) receive the entries from 2.
+2023/12/02 16:26:56 Leader: 2 (term 11) send the heartbeat.
+2023/12/02 16:26:56 Leader: 2 (term 11) send the heartbeat.
+2023/12/02 16:26:56 Follower: 0 (term 11) receive the entries from 2.
+2023/12/02 16:26:56 Follower: 1 (term 11) receive the entries from 2.
+2023/12/02 16:26:56 Follower: 1 (term 11) receive the entries from 0.
+2023/12/02 16:26:56 Leader: 2 (term 11) send the heartbeat.
+2023/12/02 16:26:56 Leader: 2 (term 11) send the heartbeat.
+2023/12/02 16:26:56 Follower: 0 (term 11) receive the entries from 2.
+2023/12/02 16:26:56 Follower: 1 (term 11) receive the entries from 2.
+2023/12/02 16:26:56 Leader: 2 (term 11) send the heartbeat.
+2023/12/02 16:26:56 Leader: 2 (term 11) send the heartbeat.
+2023/12/02 16:26:56 Follower: 1 (term 11) receive the entries from 2.
+2023/12/02 16:26:56 Follower: 0 (term 11) receive the entries from 2.
+2023/12/02 16:26:56 Leader: 2 (term 11) receive the entries from 0.
+2023/12/02 16:26:56 Leader: 2 (term 11) receive the entries from 0.
+2023/12/02 16:26:57 Leader: 2 (term 11) send the heartbeat.
+2023/12/02 16:26:57 Leader: 2 (term 11) send the heartbeat.
+2023/12/02 16:26:57 Follower: 1 (term 11) receive the entries from 2.
+2023/12/02 16:26:57 Follower: 0 (term 11) receive the entries from 2.
+  ... Passed --   4.5  3  147   27237    0
+2023/12/02 16:26:57 Now create the raft node [ 0 ]!
+2023/12/02 16:26:57 Now create the raft node [ 1 ]!
+2023/12/02 16:26:57 Now create the raft node [ 2 ]!
+2023/12/02 16:26:57 Now create the raft node [ 3 ]!
+2023/12/02 16:26:57 Now create the raft node [ 4 ]!
+2023/12/02 16:26:57 Now create the raft node [ 5 ]!
+2023/12/02 16:26:57 Now create the raft node [ 6 ]!
+Test (2A): multiple elections ...
+2023/12/02 16:26:57 Follower: 0 follower (term 0) timeout, and change to the candidate! The current term is 1.
+2023/12/02 16:26:57 Candidate: 0 (term 1) send Request Vote to server 2
+2023/12/02 16:26:57 Candidate: 0 (term 1) send Request Vote to server 3
+2023/12/02 16:26:57 Candidate: 0 (term 1) send Request Vote to server 5
+2023/12/02 16:26:57 Candidate: 0 (term 1) send Request Vote to server 1
+2023/12/02 16:26:57 Follower: 3 (term 0) receive the Request Vote from 0
+2023/12/02 16:26:57 Follower: 1 (term 0) receive the Request Vote from 0
+2023/12/02 16:26:57 Follower: 1 (term 0) follow the higher term Leader 0 (term 1)
+2023/12/02 16:26:57 Candidate: 0 (term 1) send Request Vote to server 4
+2023/12/02 16:26:57 Follower: 5 (term 0) receive the Request Vote from 0
+2023/12/02 16:26:57 Follower: 5 (term 0) follow the higher term Leader 0 (term 1)
+2023/12/02 16:26:57 Follower: 5 (term 1) vote for 0
+2023/12/02 16:26:57 Follower: 2 (term 0) receive the Request Vote from 0
+2023/12/02 16:26:57 Follower: 2 (term 0) follow the higher term Leader 0 (term 1)
+2023/12/02 16:26:57 Follower: 2 (term 1) vote for 0
+2023/12/02 16:26:57 Follower: 4 (term 0) receive the Request Vote from 0
+2023/12/02 16:26:57 Follower: 4 (term 0) follow the higher term Leader 0 (term 1)
+2023/12/02 16:26:57 Follower: 4 (term 1) vote for 0
+2023/12/02 16:26:57 Follower: 3 (term 0) follow the higher term Leader 0 (term 1)
+2023/12/02 16:26:57 Follower: 3 (term 1) vote for 0
+2023/12/02 16:26:57 Candidate: 0 (term 1) send Request Vote to server 6
+2023/12/02 16:26:57 Follower: 1 (term 1) vote for 0
+2023/12/02 16:26:57 Follower: 6 (term 0) receive the Request Vote from 0
+2023/12/02 16:26:57 Follower: 6 (term 0) follow the higher term Leader 0 (term 1)
+2023/12/02 16:26:57 Follower: 6 (term 1) vote for 0
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Follower: 6 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 1 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 3 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 4 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 5 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 2 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Follower: 6 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 5 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 1 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 4 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 3 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 2 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Follower: 6 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 3 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 5 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 1 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Follower: 6 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 3 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 1 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 5 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 2 follower (term 1) timeout, and change to the candidate! The current term is 2.
+2023/12/02 16:26:57 Candidate: 2 (term 2) send Request Vote to server 0
+2023/12/02 16:26:57 Candidate: 2 (term 2) send Request Vote to server 6
+2023/12/02 16:26:57 Candidate: 2 (term 2) send Request Vote to server 3
+2023/12/02 16:26:57 Candidate: 2 (term 2) send Request Vote to server 5
+2023/12/02 16:26:57 Candidate: 2 (term 2) send Request Vote to server 1
+2023/12/02 16:26:57 Candidate: 2 (term 2) send Request Vote to server 4
+2023/12/02 16:26:57 Follower: 4 follower (term 1) timeout, and change to the candidate! The current term is 2.
+2023/12/02 16:26:57 Candidate: 4 (term 2) send Request Vote to server 6
+2023/12/02 16:26:57 Candidate: 4 (term 2) send Request Vote to server 0
+2023/12/02 16:26:57 Candidate: 4 (term 2) send Request Vote to server 2
+2023/12/02 16:26:57 Candidate: 4 (term 2) send Request Vote to server 5
+2023/12/02 16:26:57 Candidate: 4 (term 2) send Request Vote to server 3
+2023/12/02 16:26:57 Candidate: 4 (term 2) send Request Vote to server 1
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Follower: 5 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 6 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 3 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 1 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:57 Follower: 1 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 5 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 6 (term 1) receive the entries from 0.
+2023/12/02 16:26:57 Follower: 3 (term 1) receive the entries from 0.
+2023/12/02 16:26:58 Candidate: 2 (term 3) send Request Vote to server 3
+2023/12/02 16:26:58 Candidate: 2 (term 3) send Request Vote to server 6
+2023/12/02 16:26:58 Candidate: 2 (term 3) send Request Vote to server 4
+2023/12/02 16:26:58 Candidate: 2 (term 3) send Request Vote to server 5
+2023/12/02 16:26:58 Candidate: 2 (term 3) send Request Vote to server 1
+2023/12/02 16:26:58 Candidate: 2 (term 3) send Request Vote to server 0
+2023/12/02 16:26:58 Candidate: 4 (term 3) send Request Vote to server 0
+2023/12/02 16:26:58 Candidate: 4 (term 3) send Request Vote to server 6
+2023/12/02 16:26:58 Candidate: 4 (term 3) send Request Vote to server 2
+2023/12/02 16:26:58 Candidate: 4 (term 3) send Request Vote to server 1
+2023/12/02 16:26:58 Candidate: 4 (term 3) send Request Vote to server 3
+2023/12/02 16:26:58 Candidate: 4 (term 3) send Request Vote to server 5
+2023/12/02 16:26:58 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:58 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:58 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:58 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:58 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:58 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:58 Follower: 6 (term 1) receive the entries from 0.
+2023/12/02 16:26:58 Follower: 5 (term 1) receive the entries from 0.
+2023/12/02 16:26:58 Follower: 1 (term 1) receive the entries from 0.
+2023/12/02 16:26:58 Follower: 3 (term 1) receive the entries from 0.
+2023/12/02 16:26:58 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:58 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:58 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:58 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:58 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:58 Leader: 0 (term 1) send the heartbeat.
+2023/12/02 16:26:58 Candidate: 4 (term 3) receive the entries from 0.
+2023/12/02 16:26:58 Follower: 3 (term 1) receive the entries from 0.
+2023/12/02 16:26:58 Follower: 5 (term 1) receive the entries from 0.
+2023/12/02 16:26:58 Follower: 6 (term 1) receive the entries from 0.
+2023/12/02 16:26:58 Candidate: 2 (term 4) send Request Vote to server 3
+2023/12/02 16:26:58 Candidate: 2 (term 4) send Request Vote to server 6
+2023/12/02 16:26:58 Candidate: 2 (term 4) send Request Vote to server 4
+2023/12/02 16:26:58 Candidate: 2 (term 4) send Request Vote to server 5
+2023/12/02 16:26:58 Candidate: 2 (term 4) send Request Vote to server 0
+2023/12/02 16:26:58 Candidate: 2 (term 4) send Request Vote to server 1
+2023/12/02 16:26:58 Candidate: 4 (term 4) send Request Vote to server 0
+2023/12/02 16:26:58 Candidate: 4 (term 4) send Request Vote to server 6
+2023/12/02 16:26:58 Candidate: 4 (term 4) send Request Vote to server 2
+2023/12/02 16:26:58 Candidate: 4 (term 4) send Request Vote to server 3
+2023/12/02 16:26:58 Follower: 6 (term 1) receive the Request Vote from 4
+2023/12/02 16:26:58 Follower: 6 (term 1) follow the higher term Leader 4 (term 4)
+2023/12/02 16:26:58 Follower: 6 (term 4) vote for 4
+2023/12/02 16:26:58 Follower: 0 (term 3) receive the Request Vote from 4
+2023/12/02 16:26:58 Follower: 0 (term 3) follow the higher term Leader 4 (term 4)
+2023/12/02 16:26:58 Follower: 0 (term 4) vote for 4
+2023/12/02 16:26:58 Candidate: 4 (term 4) send Request Vote to server 5
+2023/12/02 16:26:58 Candidate: 4 (term 4) send Request Vote to server 1
+2023/12/02 16:26:58 Follower: 3 (term 1) receive the Request Vote from 4
+2023/12/02 16:26:58 Follower: 3 (term 1) follow the higher term Leader 4 (term 4)
+2023/12/02 16:26:58 Follower: 3 (term 4) vote for 4
+2023/12/02 16:26:58 Follower: 5 (term 1) receive the Request Vote from 4
+2023/12/02 16:26:58 Follower: 5 (term 1) follow the higher term Leader 4 (term 4)
+2023/12/02 16:26:58 Follower: 5 (term 4) vote for 4
+2023/12/02 16:26:58 Follower: 1 follower (term 1) timeout, and change to the candidate! The current term is 2.
+2023/12/02 16:26:58 Candidate: 1 (term 2) send Request Vote to server 6
+2023/12/02 16:26:58 Candidate: 1 (term 2) send Request Vote to server 3
+2023/12/02 16:26:58 Candidate: 1 (term 2) send Request Vote to server 2
+2023/12/02 16:26:58 Candidate: 1 (term 2) send Request Vote to server 4
+2023/12/02 16:26:58 Candidate: 1 (term 2) send Request Vote to server 0
+2023/12/02 16:26:58 Candidate: 1 (term 2) send Request Vote to server 5
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Follower: 0 (term 4) receive the entries from 4.
+2023/12/02 16:26:58 Follower: 5 (term 4) receive the entries from 4.
+2023/12/02 16:26:58 Follower: 3 (term 4) receive the entries from 4.
+2023/12/02 16:26:58 Follower: 6 (term 4) receive the entries from 4.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Follower: 0 (term 4) receive the entries from 4.
+2023/12/02 16:26:58 Follower: 6 (term 4) receive the entries from 4.
+2023/12/02 16:26:58 Follower: 5 (term 4) receive the entries from 4.
+2023/12/02 16:26:58 Follower: 3 (term 4) receive the entries from 4.
+2023/12/02 16:26:58 Follower: 3 (term 4) receive the Request Vote from 4
+2023/12/02 16:26:58 Candidate: 2 (term 5) send Request Vote to server 1
+2023/12/02 16:26:58 Candidate: 2 (term 5) send Request Vote to server 6
+2023/12/02 16:26:58 Candidate: 2 (term 5) send Request Vote to server 5
+2023/12/02 16:26:58 Candidate: 2 (term 5) send Request Vote to server 4
+2023/12/02 16:26:58 Candidate: 2 (term 5) send Request Vote to server 0
+2023/12/02 16:26:58 Candidate: 2 (term 5) send Request Vote to server 3
+2023/12/02 16:26:58 Candidate: 1 (term 3) send Request Vote to server 6
+2023/12/02 16:26:58 Candidate: 1 (term 3) send Request Vote to server 3
+2023/12/02 16:26:58 Candidate: 1 (term 3) send Request Vote to server 0
+2023/12/02 16:26:58 Candidate: 1 (term 3) send Request Vote to server 4
+2023/12/02 16:26:58 Candidate: 1 (term 3) send Request Vote to server 5
+2023/12/02 16:26:58 Candidate: 1 (term 3) send Request Vote to server 2
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Follower: 0 (term 4) receive the entries from 4.
+2023/12/02 16:26:58 Follower: 3 (term 4) receive the entries from 4.
+2023/12/02 16:26:58 Follower: 6 (term 4) receive the entries from 4.
+2023/12/02 16:26:58 Follower: 5 (term 4) receive the entries from 4.
+2023/12/02 16:26:58 Follower: 6 (term 4) receive the Request Vote from 4
+2023/12/02 16:26:58 Candidate: 2 (term 6) send Request Vote to server 6
+2023/12/02 16:26:58 Candidate: 2 (term 6) send Request Vote to server 3
+2023/12/02 16:26:58 Candidate: 2 (term 6) send Request Vote to server 0
+2023/12/02 16:26:58 Candidate: 2 (term 6) send Request Vote to server 1
+2023/12/02 16:26:58 Candidate: 2 (term 6) send Request Vote to server 4
+2023/12/02 16:26:58 Candidate: 2 (term 6) send Request Vote to server 5
+2023/12/02 16:26:58 Follower: 0 (term 4) receive the Request Vote from 4
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Follower: 6 (term 4) receive the entries from 4.
+2023/12/02 16:26:58 Follower: 5 (term 4) receive the entries from 4.
+2023/12/02 16:26:58 Follower: 3 (term 4) receive the entries from 4.
+2023/12/02 16:26:58 Follower: 0 (term 4) receive the entries from 4.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Candidate: 1 (term 4) send Request Vote to server 4
+2023/12/02 16:26:58 Candidate: 1 (term 4) send Request Vote to server 6
+2023/12/02 16:26:58 Candidate: 1 (term 4) send Request Vote to server 2
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:58 Candidate: 1 (term 4) send Request Vote to server 5
+2023/12/02 16:26:58 Follower: 0 (term 4) receive the entries from 4.
+2023/12/02 16:26:58 Candidate: 1 (term 4) send Request Vote to server 0
+2023/12/02 16:26:58 Candidate: 1 (term 4) send Request Vote to server 3
+2023/12/02 16:26:58 Follower: 6 (term 4) receive the entries from 4.
+2023/12/02 16:26:58 Follower: 3 (term 4) receive the entries from 4.
+2023/12/02 16:26:58 Follower: 5 (term 4) receive the entries from 4.
+2023/12/02 16:26:59 Follower: 5 (term 4) receive the Request Vote from 2
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Follower: 0 follower (term 4) timeout, and change to the candidate! The current term is 5.
+2023/12/02 16:26:59 Candidate: 0 (term 5) send Request Vote to server 6
+2023/12/02 16:26:59 Candidate: 0 (term 5) send Request Vote to server 2
+2023/12/02 16:26:59 Candidate: 0 (term 5) send Request Vote to server 3
+2023/12/02 16:26:59 Candidate: 0 (term 5) send Request Vote to server 1
+2023/12/02 16:26:59 Candidate: 0 (term 5) send Request Vote to server 5
+2023/12/02 16:26:59 Candidate: 1 (term 4) receive the Request Vote from 0
+2023/12/02 16:26:59 Candidate: 1 (term 4) follow the higher term Leader 0 (term 5)
+2023/12/02 16:26:59 Follower: 1 (term 5) vote for 0
+2023/12/02 16:26:59 Follower: 5 (term 4) receive the Request Vote from 0
+2023/12/02 16:26:59 Follower: 5 (term 4) follow the higher term Leader 0 (term 5)
+2023/12/02 16:26:59 Follower: 5 (term 5) vote for 0
+2023/12/02 16:26:59 Follower: 3 (term 4) receive the Request Vote from 0
+2023/12/02 16:26:59 Follower: 3 (term 4) follow the higher term Leader 0 (term 5)
+2023/12/02 16:26:59 Follower: 3 (term 5) vote for 0
+2023/12/02 16:26:59 Candidate: 0 (term 5) send Request Vote to server 4
+2023/12/02 16:26:59 Candidate: 2 (term 6) receive the Request Vote from 0
+2023/12/02 16:26:59 Candidate: 2 (term 7) send Request Vote to server 0
+2023/12/02 16:26:59 Candidate: 2 (term 7) send Request Vote to server 1
+2023/12/02 16:26:59 Candidate: 2 (term 7) send Request Vote to server 3
+2023/12/02 16:26:59 Leader: 0 (term 5) receive the Request Vote from 2
+2023/12/02 16:26:59 Leader: 0 (term 5) follow the higher term Leader 2 (term 7)
+2023/12/02 16:26:59 Follower: 0 (term 7) vote for 2
+2023/12/02 16:26:59 Follower: 3 (term 5) receive the Request Vote from 2
+2023/12/02 16:26:59 Follower: 3 (term 5) follow the higher term Leader 2 (term 7)
+2023/12/02 16:26:59 Follower: 1 (term 5) receive the Request Vote from 2
+2023/12/02 16:26:59 Follower: 1 (term 5) follow the higher term Leader 2 (term 7)
+2023/12/02 16:26:59 Follower: 1 (term 7) vote for 2
+2023/12/02 16:26:59 Candidate: 2 (term 7) send Request Vote to server 5
+2023/12/02 16:26:59 Candidate: 2 (term 7) send Request Vote to server 4
+2023/12/02 16:26:59 Candidate: 2 (term 7) send Request Vote to server 6
+2023/12/02 16:26:59 Follower: 5 (term 5) receive the Request Vote from 2
+2023/12/02 16:26:59 Follower: 5 (term 5) follow the higher term Leader 2 (term 7)
+2023/12/02 16:26:59 Follower: 5 (term 7) vote for 2
+2023/12/02 16:26:59 Follower: 3 (term 7) vote for 2
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) receive the entries from 0.
+2023/12/02 16:26:59 Follower: 6 follower (term 4) timeout, and change to the candidate! The current term is 5.
+2023/12/02 16:26:59 Candidate: 6 (term 5) send Request Vote to server 5
+2023/12/02 16:26:59 Candidate: 6 (term 5) send Request Vote to server 1
+2023/12/02 16:26:59 Candidate: 6 (term 5) send Request Vote to server 2
+2023/12/02 16:26:59 Candidate: 6 (term 5) send Request Vote to server 0
+2023/12/02 16:26:59 Candidate: 6 (term 5) send Request Vote to server 3
+2023/12/02 16:26:59 Candidate: 6 (term 5) send Request Vote to server 4
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Follower: 5 (term 7) receive the entries from 2.
+2023/12/02 16:26:59 Follower: 3 (term 7) receive the entries from 2.
+2023/12/02 16:26:59 Follower: 0 (term 7) receive the entries from 2.
+2023/12/02 16:26:59 Follower: 1 (term 7) receive the entries from 2.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Follower: 0 (term 7) receive the entries from 2.
+2023/12/02 16:26:59 Follower: 1 (term 7) receive the entries from 2.
+2023/12/02 16:26:59 Follower: 3 (term 7) receive the entries from 2.
+2023/12/02 16:26:59 Follower: 5 (term 7) receive the entries from 2.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Follower: 3 (term 7) receive the Request Vote from 1
+2023/12/02 16:26:59 Candidate: 6 (term 6) send Request Vote to server 5
+2023/12/02 16:26:59 Candidate: 6 (term 6) send Request Vote to server 4
+2023/12/02 16:26:59 Candidate: 6 (term 6) send Request Vote to server 2
+2023/12/02 16:26:59 Candidate: 6 (term 6) send Request Vote to server 0
+2023/12/02 16:26:59 Candidate: 6 (term 6) send Request Vote to server 1
+2023/12/02 16:26:59 Candidate: 6 (term 6) send Request Vote to server 3
+2023/12/02 16:26:59 Follower: 0 (term 7) receive the Request Vote from 6
+2023/12/02 16:26:59 Follower: 1 (term 7) receive the Request Vote from 6
+2023/12/02 16:26:59 Follower: 3 (term 7) receive the Request Vote from 6
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Follower: 1 follower (term 7) timeout, and change to the candidate! The current term is 8.
+2023/12/02 16:26:59 Candidate: 1 (term 8) send Request Vote to server 6
+2023/12/02 16:26:59 Candidate: 1 (term 8) send Request Vote to server 0
+2023/12/02 16:26:59 Candidate: 1 (term 8) send Request Vote to server 4
+2023/12/02 16:26:59 Candidate: 1 (term 8) send Request Vote to server 3
+2023/12/02 16:26:59 Follower: 0 (term 7) receive the Request Vote from 1
+2023/12/02 16:26:59 Follower: 0 (term 7) follow the higher term Leader 1 (term 8)
+2023/12/02 16:26:59 Follower: 0 (term 8) vote for 1
+2023/12/02 16:26:59 Follower: 3 (term 7) receive the Request Vote from 1
+2023/12/02 16:26:59 Follower: 3 (term 7) follow the higher term Leader 1 (term 8)
+2023/12/02 16:26:59 Follower: 3 (term 8) vote for 1
+2023/12/02 16:26:59 Candidate: 6 (term 6) receive the Request Vote from 1
+2023/12/02 16:26:59 Candidate: 6 (term 6) follow the higher term Leader 1 (term 8)
+2023/12/02 16:26:59 Follower: 6 (term 8) vote for 1
+2023/12/02 16:26:59 Candidate: 1 (term 8) send Request Vote to server 5
+2023/12/02 16:26:59 Candidate: 1 (term 8) send Request Vote to server 2
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Follower: 6 (term 8) receive the Request Vote from 1
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Follower: 5 follower (term 7) timeout, and change to the candidate! The current term is 8.
+2023/12/02 16:26:59 Candidate: 5 (term 8) send Request Vote to server 6
+2023/12/02 16:26:59 Candidate: 5 (term 8) send Request Vote to server 0
+2023/12/02 16:26:59 Candidate: 5 (term 8) send Request Vote to server 1
+2023/12/02 16:26:59 Candidate: 5 (term 8) send Request Vote to server 3
+2023/12/02 16:26:59 Candidate: 5 (term 8) send Request Vote to server 2
+2023/12/02 16:26:59 Candidate: 5 (term 8) send Request Vote to server 4
+2023/12/02 16:26:59 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:26:59 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:26:59 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:26:59 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:26:59 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:26:59 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:26:59 Follower: 0 (term 8) receive the entries from 1.
+2023/12/02 16:26:59 Follower: 6 (term 8) receive the entries from 1.
+2023/12/02 16:26:59 Follower: 3 (term 8) receive the entries from 1.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:26:59 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:26:59 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:26:59 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:26:59 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:26:59 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:26:59 Follower: 6 (term 8) receive the entries from 1.
+2023/12/02 16:26:59 Follower: 0 (term 8) receive the entries from 1.
+2023/12/02 16:26:59 Follower: 3 (term 8) receive the entries from 1.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:26:59 Candidate: 5 (term 9) send Request Vote to server 6
+2023/12/02 16:26:59 Candidate: 5 (term 9) send Request Vote to server 2
+2023/12/02 16:26:59 Candidate: 5 (term 9) send Request Vote to server 0
+2023/12/02 16:26:59 Candidate: 5 (term 9) send Request Vote to server 4
+2023/12/02 16:26:59 Candidate: 5 (term 9) send Request Vote to server 1
+2023/12/02 16:26:59 Candidate: 5 (term 9) send Request Vote to server 3
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:26:59 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:26:59 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:26:59 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:26:59 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:26:59 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:26:59 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:26:59 Follower: 6 (term 8) receive the entries from 1.
+2023/12/02 16:26:59 Follower: 0 (term 8) receive the entries from 1.
+2023/12/02 16:26:59 Follower: 3 (term 8) receive the entries from 1.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 1 (term 8) receive the Request Vote from 5
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Follower: 0 (term 8) receive the Request Vote from 1
+2023/12/02 16:27:00 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:27:00 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:27:00 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:27:00 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:27:00 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:27:00 Leader: 1 (term 8) send the heartbeat.
+2023/12/02 16:27:00 Follower: 0 (term 8) receive the entries from 1.
+2023/12/02 16:27:00 Follower: 6 (term 8) receive the entries from 1.
+2023/12/02 16:27:00 Candidate: 5 (term 9) receive the entries from 1.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Follower: 3 follower (term 8) timeout, and change to the candidate! The current term is 9.
+2023/12/02 16:27:00 Candidate: 3 (term 9) send Request Vote to server 2
+2023/12/02 16:27:00 Candidate: 3 (term 9) send Request Vote to server 0
+2023/12/02 16:27:00 Candidate: 3 (term 9) send Request Vote to server 1
+2023/12/02 16:27:00 Candidate: 3 (term 9) send Request Vote to server 4
+2023/12/02 16:27:00 Candidate: 3 (term 9) send Request Vote to server 5
+2023/12/02 16:27:00 Candidate: 3 (term 9) send Request Vote to server 6
+2023/12/02 16:27:00 Candidate: 5 (term 9) receive the Request Vote from 1
+2023/12/02 16:27:00 Candidate: 5 (term 10) send Request Vote to server 2
+2023/12/02 16:27:00 Candidate: 5 (term 10) send Request Vote to server 6
+2023/12/02 16:27:00 Candidate: 5 (term 10) send Request Vote to server 4
+2023/12/02 16:27:00 Candidate: 5 (term 10) send Request Vote to server 3
+2023/12/02 16:27:00 Candidate: 5 (term 10) send Request Vote to server 0
+2023/12/02 16:27:00 Candidate: 5 (term 10) send Request Vote to server 1
+2023/12/02 16:27:00 Follower: 6 (term 8) receive the Request Vote from 5
+2023/12/02 16:27:00 Follower: 6 (term 8) follow the higher term Leader 5 (term 10)
+2023/12/02 16:27:00 Follower: 6 (term 10) vote for 5
+2023/12/02 16:27:00 Follower: 0 (term 8) receive the Request Vote from 5
+2023/12/02 16:27:00 Follower: 0 (term 8) follow the higher term Leader 5 (term 10)
+2023/12/02 16:27:00 Follower: 0 (term 10) vote for 5
+2023/12/02 16:27:00 Follower: 1 (term 9) receive the Request Vote from 5
+2023/12/02 16:27:00 Follower: 1 (term 9) follow the higher term Leader 5 (term 10)
+2023/12/02 16:27:00 Follower: 1 (term 10) vote for 5
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Follower: 1 (term 10) receive the entries from 0.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Follower: 1 (term 10) receive the Request Vote from 5
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Follower: 0 (term 10) receive the entries from 5.
+2023/12/02 16:27:00 Follower: 1 (term 10) receive the entries from 5.
+2023/12/02 16:27:00 Follower: 6 (term 10) receive the entries from 5.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Leader: 2 (term 7) send the heartbeat.
+2023/12/02 16:27:00 Candidate: 3 (term 10) send Request Vote to server 2
+2023/12/02 16:27:00 Candidate: 3 (term 10) send Request Vote to server 4
+2023/12/02 16:27:00 Candidate: 3 (term 10) send Request Vote to server 0
+2023/12/02 16:27:00 Candidate: 3 (term 10) send Request Vote to server 6
+2023/12/02 16:27:00 Candidate: 3 (term 10) send Request Vote to server 1
+2023/12/02 16:27:00 Candidate: 3 (term 10) send Request Vote to server 5
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 4 (term 4) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Follower: 6 (term 10) receive the entries from 5.
+2023/12/02 16:27:00 Leader: 4 (term 4) receive the entries from 5.
+2023/12/02 16:27:00 Leader: 2 (term 7) receive the entries from 5.
+2023/12/02 16:27:00 Follower: 6 (term 10) receive the entries from 4.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Follower: 4 (term 10) receive the entries from 5.
+2023/12/02 16:27:00 Follower: 6 (term 10) receive the entries from 5.
+2023/12/02 16:27:00 Follower: 2 (term 10) receive the entries from 5.
+2023/12/02 16:27:00 Follower: 0 follower (term 10) timeout, and change to the candidate! The current term is 11.
+2023/12/02 16:27:00 Candidate: 0 (term 11) send Request Vote to server 6
+2023/12/02 16:27:00 Candidate: 0 (term 11) send Request Vote to server 3
+2023/12/02 16:27:00 Candidate: 0 (term 11) send Request Vote to server 4
+2023/12/02 16:27:00 Candidate: 0 (term 11) send Request Vote to server 1
+2023/12/02 16:27:00 Candidate: 0 (term 11) send Request Vote to server 5
+2023/12/02 16:27:00 Candidate: 0 (term 11) send Request Vote to server 2
+2023/12/02 16:27:00 Follower: 1 follower (term 10) timeout, and change to the candidate! The current term is 11.
+2023/12/02 16:27:00 Candidate: 1 (term 11) send Request Vote to server 6
+2023/12/02 16:27:00 Candidate: 1 (term 11) send Request Vote to server 2
+2023/12/02 16:27:00 Candidate: 1 (term 11) send Request Vote to server 0
+2023/12/02 16:27:00 Candidate: 1 (term 11) send Request Vote to server 3
+2023/12/02 16:27:00 Candidate: 1 (term 11) send Request Vote to server 5
+2023/12/02 16:27:00 Candidate: 1 (term 11) send Request Vote to server 4
+2023/12/02 16:27:00 Candidate: 3 (term 11) send Request Vote to server 0
+2023/12/02 16:27:00 Candidate: 3 (term 11) send Request Vote to server 6
+2023/12/02 16:27:00 Candidate: 3 (term 11) send Request Vote to server 1
+2023/12/02 16:27:00 Candidate: 3 (term 11) send Request Vote to server 2
+2023/12/02 16:27:00 Candidate: 3 (term 11) send Request Vote to server 4
+2023/12/02 16:27:00 Candidate: 3 (term 11) send Request Vote to server 5
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Follower: 6 (term 10) receive the entries from 5.
+2023/12/02 16:27:00 Follower: 4 (term 10) receive the entries from 5.
+2023/12/02 16:27:00 Follower: 2 (term 10) receive the entries from 5.
+2023/12/02 16:27:00 Follower: 4 (term 10) receive the Request Vote from 5
+2023/12/02 16:27:00 Follower: 2 (term 10) receive the entries from 4.
+2023/12/02 16:27:00 Leader: 5 (term 10) receive the entries from 2.
+2023/12/02 16:27:00 Follower: 4 (term 10) receive the Request Vote from 5
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Follower: 6 (term 10) receive the entries from 5.
+2023/12/02 16:27:00 Follower: 4 (term 10) receive the entries from 5.
+2023/12/02 16:27:00 Follower: 2 (term 10) receive the entries from 5.
+2023/12/02 16:27:00 Candidate: 1 (term 12) send Request Vote to server 3
+2023/12/02 16:27:00 Candidate: 1 (term 12) send Request Vote to server 0
+2023/12/02 16:27:00 Candidate: 1 (term 12) send Request Vote to server 6
+2023/12/02 16:27:00 Candidate: 1 (term 12) send Request Vote to server 2
+2023/12/02 16:27:00 Candidate: 1 (term 12) send Request Vote to server 4
+2023/12/02 16:27:00 Candidate: 1 (term 12) send Request Vote to server 5
+2023/12/02 16:27:00 Follower: 4 (term 10) receive the Request Vote from 2
+2023/12/02 16:27:00 Candidate: 0 (term 12) send Request Vote to server 1
+2023/12/02 16:27:00 Candidate: 0 (term 12) send Request Vote to server 6
+2023/12/02 16:27:00 Candidate: 0 (term 12) send Request Vote to server 3
+2023/12/02 16:27:00 Candidate: 0 (term 12) send Request Vote to server 4
+2023/12/02 16:27:00 Candidate: 0 (term 12) send Request Vote to server 2
+2023/12/02 16:27:00 Candidate: 0 (term 12) send Request Vote to server 5
+2023/12/02 16:27:00 Candidate: 3 (term 12) send Request Vote to server 2
+2023/12/02 16:27:00 Candidate: 3 (term 12) send Request Vote to server 6
+2023/12/02 16:27:00 Candidate: 3 (term 12) send Request Vote to server 5
+2023/12/02 16:27:00 Candidate: 3 (term 12) send Request Vote to server 4
+2023/12/02 16:27:00 Candidate: 3 (term 12) send Request Vote to server 0
+2023/12/02 16:27:00 Candidate: 3 (term 12) send Request Vote to server 1
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Leader: 5 (term 10) send the heartbeat.
+2023/12/02 16:27:00 Candidate: 0 (term 12) receive the entries from 5.
+2023/12/02 16:27:00 Candidate: 1 (term 12) receive the entries from 5.
+2023/12/02 16:27:00 Candidate: 3 (term 12) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 6 follower (term 10) timeout, and change to the candidate! The current term is 11.
+2023/12/02 16:27:01 Candidate: 6 (term 11) send Request Vote to server 0
+2023/12/02 16:27:01 Candidate: 6 (term 11) send Request Vote to server 1
+2023/12/02 16:27:01 Candidate: 6 (term 11) send Request Vote to server 5
+2023/12/02 16:27:01 Candidate: 6 (term 11) send Request Vote to server 3
+2023/12/02 16:27:01 Candidate: 6 (term 11) send Request Vote to server 2
+2023/12/02 16:27:01 Candidate: 6 (term 11) send Request Vote to server 4
+2023/12/02 16:27:01 Follower: 4 follower (term 10) timeout, and change to the candidate! The current term is 11.
+2023/12/02 16:27:01 Candidate: 4 (term 11) send Request Vote to server 6
+2023/12/02 16:27:01 Candidate: 4 (term 11) send Request Vote to server 3
+2023/12/02 16:27:01 Candidate: 4 (term 11) send Request Vote to server 1
+2023/12/02 16:27:01 Candidate: 4 (term 11) send Request Vote to server 2
+2023/12/02 16:27:01 Candidate: 4 (term 11) send Request Vote to server 5
+2023/12/02 16:27:01 Candidate: 4 (term 11) send Request Vote to server 0
+2023/12/02 16:27:01 Follower: 2 follower (term 10) timeout, and change to the candidate! The current term is 11.
+2023/12/02 16:27:01 Candidate: 2 (term 11) send Request Vote to server 6
+2023/12/02 16:27:01 Candidate: 2 (term 11) send Request Vote to server 0
+2023/12/02 16:27:01 Candidate: 2 (term 11) send Request Vote to server 3
+2023/12/02 16:27:01 Candidate: 2 (term 11) send Request Vote to server 1
+2023/12/02 16:27:01 Candidate: 2 (term 11) send Request Vote to server 4
+2023/12/02 16:27:01 Candidate: 2 (term 11) send Request Vote to server 5
+2023/12/02 16:27:01 Follower: 5 follower (term 12) timeout, and change to the candidate! The current term is 13.
+2023/12/02 16:27:01 Candidate: 5 (term 13) send Request Vote to server 1
+2023/12/02 16:27:01 Candidate: 5 (term 13) send Request Vote to server 4
+2023/12/02 16:27:01 Candidate: 5 (term 13) send Request Vote to server 0
+2023/12/02 16:27:01 Candidate: 5 (term 13) send Request Vote to server 6
+2023/12/02 16:27:01 Candidate: 5 (term 13) send Request Vote to server 3
+2023/12/02 16:27:01 Candidate: 0 (term 12) receive the Request Vote from 5
+2023/12/02 16:27:01 Candidate: 0 (term 12) follow the higher term Leader 5 (term 13)
+2023/12/02 16:27:01 Follower: 0 (term 13) vote for 5
+2023/12/02 16:27:01 Candidate: 1 (term 12) receive the Request Vote from 5
+2023/12/02 16:27:01 Candidate: 1 (term 12) follow the higher term Leader 5 (term 13)
+2023/12/02 16:27:01 Follower: 1 (term 13) vote for 5
+2023/12/02 16:27:01 Candidate: 5 (term 13) send Request Vote to server 2
+2023/12/02 16:27:01 Candidate: 3 (term 12) receive the Request Vote from 5
+2023/12/02 16:27:01 Candidate: 3 (term 12) follow the higher term Leader 5 (term 13)
+2023/12/02 16:27:01 Follower: 3 (term 13) vote for 5
+2023/12/02 16:27:01 Follower: 3 (term 13) receive the entries from 1.
+2023/12/02 16:27:01 Candidate: 6 (term 12) send Request Vote to server 5
+2023/12/02 16:27:01 Candidate: 6 (term 12) send Request Vote to server 2
+2023/12/02 16:27:01 Candidate: 6 (term 12) send Request Vote to server 1
+2023/12/02 16:27:01 Candidate: 6 (term 12) send Request Vote to server 3
+2023/12/02 16:27:01 Candidate: 6 (term 12) send Request Vote to server 4
+2023/12/02 16:27:01 Candidate: 6 (term 12) send Request Vote to server 0
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Follower: 0 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 3 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 1 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 3 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 3 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Candidate: 4 (term 12) send Request Vote to server 6
+2023/12/02 16:27:01 Candidate: 4 (term 12) send Request Vote to server 0
+2023/12/02 16:27:01 Candidate: 4 (term 12) send Request Vote to server 2
+2023/12/02 16:27:01 Candidate: 4 (term 12) send Request Vote to server 3
+2023/12/02 16:27:01 Candidate: 4 (term 12) send Request Vote to server 1
+2023/12/02 16:27:01 Candidate: 4 (term 12) send Request Vote to server 5
+2023/12/02 16:27:01 Candidate: 2 (term 12) send Request Vote to server 6
+2023/12/02 16:27:01 Candidate: 2 (term 12) send Request Vote to server 4
+2023/12/02 16:27:01 Candidate: 2 (term 12) send Request Vote to server 1
+2023/12/02 16:27:01 Candidate: 2 (term 12) send Request Vote to server 0
+2023/12/02 16:27:01 Candidate: 2 (term 12) send Request Vote to server 5
+2023/12/02 16:27:01 Candidate: 2 (term 12) send Request Vote to server 3
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Follower: 0 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 1 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 3 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Leader: 5 (term 13) receive the Request Vote from 1
+2023/12/02 16:27:01 Candidate: 6 (term 12) receive the entries from 5.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Candidate: 6 (term 12) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 0 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 1 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Candidate: 2 (term 12) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 0 (term 13) receive the entries from 2.
+2023/12/02 16:27:01 Follower: 6 (term 13) receive the Request Vote from 5
+2023/12/02 16:27:01 Candidate: 4 (term 13) send Request Vote to server 1
+2023/12/02 16:27:01 Candidate: 4 (term 13) send Request Vote to server 6
+2023/12/02 16:27:01 Candidate: 4 (term 13) send Request Vote to server 2
+2023/12/02 16:27:01 Candidate: 4 (term 13) send Request Vote to server 3
+2023/12/02 16:27:01 Candidate: 4 (term 13) send Request Vote to server 5
+2023/12/02 16:27:01 Candidate: 4 (term 13) send Request Vote to server 0
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Follower: 6 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 1 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 2 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 0 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Leader: 5 (term 13) receive the Request Vote from 6
+2023/12/02 16:27:01 Follower: 0 (term 13) receive the Request Vote from 2
+2023/12/02 16:27:01 Follower: 3 follower (term 13) timeout, and change to the candidate! The current term is 14.
+2023/12/02 16:27:01 Candidate: 3 (term 14) send Request Vote to server 6
+2023/12/02 16:27:01 Candidate: 3 (term 14) send Request Vote to server 2
+2023/12/02 16:27:01 Candidate: 3 (term 14) send Request Vote to server 4
+2023/12/02 16:27:01 Candidate: 3 (term 14) send Request Vote to server 0
+2023/12/02 16:27:01 Candidate: 3 (term 14) send Request Vote to server 5
+2023/12/02 16:27:01 Candidate: 3 (term 14) send Request Vote to server 1
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Follower: 6 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 1 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 2 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 0 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 2 (term 13) receive the entries from 0.
+2023/12/02 16:27:01 Follower: 6 (term 13) receive the Request Vote from 2
+2023/12/02 16:27:01 Follower: 2 (term 13) receive the Request Vote from 5
+2023/12/02 16:27:01 Candidate: 4 (term 14) send Request Vote to server 2
+2023/12/02 16:27:01 Candidate: 4 (term 14) send Request Vote to server 6
+2023/12/02 16:27:01 Candidate: 4 (term 14) send Request Vote to server 3
+2023/12/02 16:27:01 Candidate: 4 (term 14) send Request Vote to server 5
+2023/12/02 16:27:01 Candidate: 4 (term 14) send Request Vote to server 1
+2023/12/02 16:27:01 Candidate: 4 (term 14) send Request Vote to server 0
+2023/12/02 16:27:01 Follower: 2 (term 13) receive the Request Vote from 1
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Follower: 0 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:01 Follower: 2 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 1 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 6 (term 13) receive the entries from 5.
+2023/12/02 16:27:01 Follower: 6 (term 13) receive the entries from 4.
+2023/12/02 16:27:01 Follower: 2 (term 13) receive the Request Vote from 1
+2023/12/02 16:27:01 Candidate: 4 (term 14) receive the Request Vote from 1
+2023/12/02 16:27:02 Follower: 1 (term 13) receive the entries from 2.
+2023/12/02 16:27:02 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:02 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:02 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:02 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:02 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:02 Leader: 5 (term 13) send the heartbeat.
+2023/12/02 16:27:02 Follower: 1 (term 13) receive the entries from 5.
+2023/12/02 16:27:02 Follower: 6 (term 13) receive the entries from 5.
+2023/12/02 16:27:02 Follower: 0 (term 13) receive the entries from 5.
+2023/12/02 16:27:02 Candidate: 3 (term 14) receive the entries from 5.
+2023/12/02 16:27:02 Candidate: 4 (term 14) receive the entries from 5.
+2023/12/02 16:27:02 Follower: 2 (term 13) receive the entries from 5.
+2023/12/02 16:27:02 Follower: 5 (term 14) receive the Request Vote from 3
+2023/12/02 16:27:02 Follower: 5 (term 14) vote for 3
+2023/12/02 16:27:02 Follower: 0 (term 13) receive the Request Vote from 4
+2023/12/02 16:27:02 Candidate: 3 (term 14) receive the Request Vote from 2
+2023/12/02 16:27:02 Candidate: 4 (term 15) send Request Vote to server 0
+2023/12/02 16:27:02 Candidate: 4 (term 15) send Request Vote to server 6
+2023/12/02 16:27:02 Candidate: 4 (term 15) send Request Vote to server 3
+2023/12/02 16:27:02 Follower: 6 (term 13) receive the Request Vote from 4
+2023/12/02 16:27:02 Follower: 6 (term 13) follow the higher term Leader 4 (term 15)
+2023/12/02 16:27:02 Follower: 6 (term 15) vote for 4
+2023/12/02 16:27:02 Candidate: 3 (term 14) receive the Request Vote from 4
+2023/12/02 16:27:02 Follower: 0 (term 13) receive the Request Vote from 4
+2023/12/02 16:27:02 Follower: 0 (term 13) follow the higher term Leader 4 (term 15)
+2023/12/02 16:27:02 Follower: 0 (term 15) vote for 4
+2023/12/02 16:27:02 Candidate: 4 (term 15) send Request Vote to server 1
+2023/12/02 16:27:02 Candidate: 4 (term 15) send Request Vote to server 2
+2023/12/02 16:27:02 Candidate: 4 (term 15) send Request Vote to server 5
+2023/12/02 16:27:02 Follower: 1 (term 13) receive the Request Vote from 4
+2023/12/02 16:27:02 Follower: 1 (term 13) follow the higher term Leader 4 (term 15)
+2023/12/02 16:27:02 Follower: 1 (term 15) vote for 4
+2023/12/02 16:27:02 Follower: 2 (term 13) receive the Request Vote from 4
+2023/12/02 16:27:02 Follower: 2 (term 13) follow the higher term Leader 4 (term 15)
+2023/12/02 16:27:02 Follower: 2 (term 15) vote for 4
+2023/12/02 16:27:02 Candidate: 3 (term 14) follow the higher term Leader 4 (term 15)
+2023/12/02 16:27:02 Follower: 5 (term 14) receive the Request Vote from 4
+2023/12/02 16:27:02 Follower: 5 (term 14) follow the higher term Leader 4 (term 15)
+2023/12/02 16:27:02 Follower: 5 (term 15) vote for 4
+2023/12/02 16:27:02 Follower: 3 (term 15) vote for 4
+2023/12/02 16:27:02 Follower: 5 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 2 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 6 (term 15) receive the Request Vote from 2
+2023/12/02 16:27:02 Leader: 4 (term 15) send the heartbeat.
+2023/12/02 16:27:02 Leader: 4 (term 15) send the heartbeat.
+2023/12/02 16:27:02 Leader: 4 (term 15) send the heartbeat.
+2023/12/02 16:27:02 Leader: 4 (term 15) send the heartbeat.
+2023/12/02 16:27:02 Leader: 4 (term 15) send the heartbeat.
+2023/12/02 16:27:02 Leader: 4 (term 15) send the heartbeat.
+2023/12/02 16:27:02 Follower: 2 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 1 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 0 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 3 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 6 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 5 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 1 (term 15) receive the entries from 5.
+2023/12/02 16:27:02 Follower: 0 (term 15) receive the Request Vote from 3
+2023/12/02 16:27:02 Leader: 4 (term 15) receive the Request Vote from 6
+2023/12/02 16:27:02 Follower: 3 (term 15) receive the Request Vote from 2
+2023/12/02 16:27:02 Leader: 4 (term 15) send the heartbeat.
+2023/12/02 16:27:02 Leader: 4 (term 15) send the heartbeat.
+2023/12/02 16:27:02 Leader: 4 (term 15) send the heartbeat.
+2023/12/02 16:27:02 Leader: 4 (term 15) send the heartbeat.
+2023/12/02 16:27:02 Leader: 4 (term 15) send the heartbeat.
+2023/12/02 16:27:02 Leader: 4 (term 15) send the heartbeat.
+2023/12/02 16:27:02 Follower: 6 (term 15) receive the Request Vote from 4
+2023/12/02 16:27:02 Follower: 0 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 3 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 2 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 5 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 1 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 6 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 2 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 1 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Leader: 4 (term 15) receive the Request Vote from 6
+2023/12/02 16:27:02 Follower: 6 (term 15) receive the Request Vote from 1
+2023/12/02 16:27:02 Follower: 3 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 3 (term 15) receive the Request Vote from 6
+2023/12/02 16:27:02 Follower: 2 (term 15) receive the entries from 0.
+2023/12/02 16:27:02 Follower: 3 (term 15) receive the entries from 2.
+2023/12/02 16:27:02 Follower: 6 (term 15) receive the Request Vote from 4
+2023/12/02 16:27:02 Follower: 2 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Leader: 4 (term 15) send the heartbeat.
+2023/12/02 16:27:02 Leader: 4 (term 15) send the heartbeat.
+2023/12/02 16:27:02 Leader: 4 (term 15) send the heartbeat.
+2023/12/02 16:27:02 Leader: 4 (term 15) send the heartbeat.
+2023/12/02 16:27:02 Leader: 4 (term 15) send the heartbeat.
+2023/12/02 16:27:02 Leader: 4 (term 15) send the heartbeat.
+2023/12/02 16:27:02 Follower: 6 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 2 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 3 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 0 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 5 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 1 (term 15) receive the entries from 4.
+2023/12/02 16:27:02 Follower: 0 (term 15) receive the entries from 4.
+  ... Passed --   5.4  7  728  128411    0
+PASS
+ok  	6.824/raft	16.035s

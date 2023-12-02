@@ -41,14 +41,16 @@ func Make(peers []*labrpc.ClientEnd, me int,
 	rf.matchIndex = make([]int, len(peers))
 
 	rf.status = Follower
-	rf.overtime = time.Duration(150+rand.Intn(200)) * time.Millisecond // 随机产生150-350ms
-	rf.timer = time.NewTicker(rf.overtime)
+	rf.timeout = time.Duration(150+rand.Intn(200)) * time.Millisecond // 随机产生150-350ms
+	rf.timer = time.NewTicker(rf.timeout)
 
 	// initialize from state persisted before a crash
 	rf.readPersist(persister.ReadRaftState())
 
-	//fmt.Printf("[ 	Make-func-rf(%v) 	]:  %v\n", rf.me, rf.overtime)
+	//fmt.Printf("[ 	Make-func-rf(%v) 	]:  %v\n", rf.me, rf.timeout)
 	// start ticker goroutine to start elections
+	DPrintf("Now create the raft node [ %d ]!", rf.me)
+
 	go rf.ticker()
 
 	return rf

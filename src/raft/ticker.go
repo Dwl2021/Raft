@@ -28,6 +28,7 @@ func (rf *Raft) ticker() {
 
 			// follower变成竞选者
 			case Follower:
+				DPrintf("Follower: %d follower (term %d) timeout, and change to the candidate! The current term is %d.", rf.me, rf.currentTerm, rf.currentTerm+1)
 				rf.status = Candidate
 				fallthrough
 			case Candidate:
@@ -38,8 +39,8 @@ func (rf *Raft) ticker() {
 				votedNums := 1 // 统计自身的票数
 
 				// 每轮选举开始时，重新设置选举超时
-				rf.overtime = time.Duration(150+rand.Intn(200)) * time.Millisecond // 随机产生200-400ms
-				rf.timer.Reset(rf.overtime)
+				rf.timeout = time.Duration(150+rand.Intn(200)) * time.Millisecond // 重新随机产生200-400ms
+				rf.timer.Reset(rf.timeout)
 
 				// 对自身以外的节点进行选举
 				for i := 0; i < len(rf.peers); i++ {
@@ -80,7 +81,7 @@ func (rf *Raft) ticker() {
 					}
 
 					appendEntriesReply := AppendEntriesReply{}
-					//fmt.Printf("[	ticker(%v) ] : send a election to %v\n", rf.me, i)
+					DPrintf("Leader: %d (term %d) send the heartbeat.", rf.me, rf.currentTerm)
 					go rf.sendAppendEntries(i, &appendEntriesArgs, &appendEntriesReply, &appendNums)
 				}
 			}

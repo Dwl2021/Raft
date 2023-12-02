@@ -11,12 +11,14 @@ type AppendEntriesArgs struct {
 }
 
 type AppendEntriesReply struct {
-	Term     int                // leader的term可能是过时的，此时收到的Term用于更新他自己
-	Success  bool               //	如果follower与Args中的PreLogIndex/PreLogTerm都匹配才会接过去新的日志（追加），不匹配直接返回false
-	AppState AppendEntriesState // 追加状态
+	Term    int  // leader的term可能是过时的，此时收到的Term用于更新他自己
+	Success bool //	如果follower与Args中的PreLogIndex/PreLogTerm都匹配才会接过去新的日志（追加），不匹配直接返回false
 }
 
 func (rf *Raft) sendAppendEntries(server int, args *AppendEntriesArgs, reply *AppendEntriesReply, appendNums *int) bool {
+	if server == rf.me {
+		return false
+	}
 
 	if rf.killed() {
 		return false
@@ -32,49 +34,32 @@ func (rf *Raft) sendAppendEntries(server int, args *AppendEntriesArgs, reply *Ap
 		ok = rf.peers[server].Call("Raft.AppendEntries", args, reply)
 
 	}
-
 	// 必须在加在这里否则加载前面retry时进入时，RPC也需要一个锁，但是又获取不到，因为锁已经被加上了
 	rf.mu.Lock()
 	defer rf.mu.Unlock()
 
-	// 对reply的返回状态进行分支
-	switch reply.AppState {
-
-	// 目标节点crash
-	case AppKilled:
-		{
-			return false
-		}
-
-	// 目标节点正常返回
-	case AppNormal:
-		{
-			// 2A的test目的是让Leader能不能连续任期，所以2A只需要对节点初始化然后返回就好
-			return true
-		}
-
 	//If AppendEntries RPC received from new leader: convert to follower(paper - 5.2)
 	//reason: 出现网络分区，该Leader已经OutOfDate(过时）
-	case AppOutOfDate:
 
-		// 该节点变成追随者,并重置rf状态
+	// 该节点变成追随者,并重置rf状态
+	if reply.Term > rf.currentTerm {
 		rf.status = Follower
 		rf.votedFor = -1
-		rf.timer.Reset(rf.overtime)
+		rf.timer.Reset(rf.timeout)
 		rf.currentTerm = reply.Term
-
 	}
+
 	return ok
 }
 
 // AppendEntries 建立心跳、同步日志RPC
 func (rf *Raft) AppendEntries(args *AppendEntriesArgs, reply *AppendEntriesReply) {
+	DPrintf("%s: %d (term %d) receive the entries from %d.", rf.GetStatus(), rf.me, rf.currentTerm, args.LeaderId)
 	rf.mu.Lock()
 	defer rf.mu.Unlock()
 
 	// 节点crash
 	if rf.killed() {
-		reply.AppState = AppKilled
 		reply.Term = -1
 		reply.Success = false
 		return
@@ -82,7 +67,6 @@ func (rf *Raft) AppendEntries(args *AppendEntriesArgs, reply *AppendEntriesReply
 
 	// 出现网络分区，args的任期，比当前raft的任期还小，说明args之前所在的分区已经OutOfDate
 	if args.Term < rf.currentTerm {
-		reply.AppState = AppOutOfDate
 		reply.Term = rf.currentTerm
 		reply.Success = false
 		return
@@ -92,11 +76,9 @@ func (rf *Raft) AppendEntries(args *AppendEntriesArgs, reply *AppendEntriesReply
 	rf.currentTerm = args.Term
 	rf.votedFor = args.LeaderId
 	rf.status = Follower
-	rf.timer.Reset(rf.overtime)
+	rf.timer.Reset(rf.timeout)
 
 	// 对返回的reply进行赋值
-	reply.AppState = AppNormal
 	reply.Term = rf.currentTerm
 	reply.Success = true
-	return
 }
